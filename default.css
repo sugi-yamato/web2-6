@@ -29,8 +29,8 @@
 
 @media screen and (min-width:641px){
    aside{
-        padding: 10px;
-        background-color: green;
+        width: calc(50% - 20%);
+        float:left;
    }
  #side:after{
   content:"";
