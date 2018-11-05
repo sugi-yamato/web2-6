@@ -6,19 +6,16 @@
  }
  
 
-
    body{
      background-color: gray;
    }
 
 
-
    header{
     padding: 10px;
-    text-align; center;
+    text-align: center;
     background-color: red;
    }
-
 
 
    section{
@@ -42,6 +39,6 @@
 footer{
     padding: 10px;
      background-color: blue;
-    text-align; center;
+    text-align: center;
 }
    }
