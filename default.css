@@ -6,32 +6,37 @@
  }
  
 
-@media screen and (max-width:640px){
+
    body{
-     background-color: red;
+     background-color: gray;
    }
-}
 
-@media screen and (min-width:640px) and (max-width:980px){
-   body{
-     background-color: green;
-   }
-}
 
-@media screen and (min-width:981px){
-   body{
-   background-color: blue;
-   }
-}
 
-@media screen and (orientation:portait){
-   body:after{
-       content: "縦長";
+   header{
+    padding: 10px;
+    text-align; center;
+    background-color: red;
    }
-}
 
-@media screen and (orientation:landscape){
-   body:after{
-       content: "横長";
+
+
+   section{
+     padding: 10px;
+    background-color: orange;
    }
+
+
+
+   aside{
+        padding: 10px;
+        background-color: green;
+   }
+
+
+footer{
+    padding: 10px;
+     background-color: blue;
+    text-align; center;
 }
+   }
